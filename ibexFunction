@@ -1,4 +1,5 @@
 //this function will let you add however many breaks you want at designated points in your experiment
+//put it before your var items = [ ...
 //be sure to put the html files you want to use in your chunk_includes directory
 
 function modifyRunningOrder(ro) {
