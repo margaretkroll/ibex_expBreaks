@@ -1,0 +1,18 @@
+//this function will let you add however many breaks you want at designated points in your experiment
+//be sure to put the html files you want to use in your chunk_includes directory
+
+function modifyRunningOrder(ro) {
+ro[#].push(new DynamicElement(
+"Form",
+{ html: { include: "file1.html" }, transfer: "keypress" },
+true
+));
+
+ro[#].push(new DynamicElement(
+"Form",
+{ html: { include: "file2.html" }, transfer: "keypress" },
+true
+));
+return ro;
+}
+ 
